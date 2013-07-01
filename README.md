@@ -29,6 +29,9 @@ request!  However, we have a few requests before you do so.
 * In order to maintain consistency in the printed version, your pull request may
   be rejected with an explanation in a comment rather than an annotation on
   code.  That's the problem with a graphical editor!
+* Write up a short description of your changes in the form of a blog-post for
+  every pull request, if you can (we will if not), so that the change-log can be
+  updated with what you've accomplished!
 
 ## License
 

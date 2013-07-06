@@ -24,9 +24,8 @@ works well in both print and online.
 * * * The importance of talking with partners
 * * Why a sex positive guide
 * Consent
-* * Partner choice
-* * Consent in general
-* * Consent by act
+* * What it is
+* * What it isn't
 * * Negotiation
 * Protection
 * * Why

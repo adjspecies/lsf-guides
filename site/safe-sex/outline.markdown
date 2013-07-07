@@ -39,6 +39,7 @@ works well in both print and online.
 * * Consent
 * * Contraception
 * * Dental Dam
+* * Safe-word
 * * Sex
 * * Sex-positivity
 * * STD/STI

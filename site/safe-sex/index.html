@@ -1,19 +1,19 @@
 ---
 layout: default
-title: The Love ◦ Sex ◦ Fur Guide to Safer Sex
+title: The Love &#x25E6; Sex &#x25E6; Fur Guide to Safer Sex
 
 ---
 
-<p>Welcome to the <strong><span class="titlefont">Love ◦ Sex ◦ Fur</span> Guide
-to Safer Sex</strong>! Our goal is to provide a simple manual to help you
-enjoy a sexual lifestyle that's safe and healthy for both you and your partner
-or partners.  We'll be covering the topics of consent, protection, and
-contraception in a clear and topical manner to help you make healthy and
-informed choices.  This guide will be available online a mobile-friendly format,
-as well as available in print so that it's always there to be referenced.
-Additionally, we will endeavor to keep this up to date with the US Center for
-Disease Control's information on sexually transmitted diseases and pregnancy so
-that we never fall behind.<p>
+<p>Welcome to the <strong><span class="titlefont">Love &#x25E6; Sex &#x25E6;
+        Fur</span> Guide to Safer Sex</strong>! Our goal is to provide a simple
+manual to help you enjoy a sexual lifestyle that's safe and healthy for both
+you and your partner or partners.  We'll be covering the topics of consent,
+protection, and contraception in a clear and topical manner to help you make
+healthy and informed choices.  This guide will be available online a
+mobile-friendly format, as well as available in print so that it's always there
+to be referenced.  Additionally, we will endeavor to keep this up to date with
+the US Center for Disease Control's information on sexually transmitted
+diseases and pregnancy so that we never fall behind.<p>
 
 <h3>Talking About Sex</h3>
 
@@ -30,7 +30,7 @@ reasons:
     <li><strong>We are pretty honest about sex and sexuality</strong> - the
     furry subculture is seen by many as a safe space for exploring and
     re-evaluating topics such as sex, sexual orientation, and gender
-    identity. [<a href="#ref1">1</a>]</li>
+    identity. [<a href="#ref1" id="deref1">1</a>]</li>
 </ul>
 Given these reasons, and many more to boot, it's no surprise that the topic of
 sex comes up often with regards to furry life and social interaction!</p>
@@ -86,7 +86,7 @@ to something that makes them feel uncomfortable!</p>
     <li><strong>Cannot be assumed</strong> - assuming consent based on certain
     behaviors or due to history does not mean that consent is given.  Talk it
     through with those you're intimate with and make sure everything is
-    okay![<a href="#ref2">2</a>]</li>
+    okay![<a href="#ref2" id="deref2">2</a>]</li>
     <li>And, more pertinently, <strong>costumes are not consent</strong> -
     someone in a fursuit or cosplay gear still has the right to give or revoke
     consent, and it's always good to ask!</li>
@@ -111,7 +111,8 @@ one should practice safe sex with one's partner or partners:
 <h4>Male condoms</h4>
 
 <p>Latex male condoms are one of the best ways to prevent both STDs and unwanted
-pregnancy between you and your partner or partners. [<a href="#ref3">3</a>]
+pregnancy between you and your partner or partners. [<a href="#ref3"
+    id="deref3">3</a>, <a href="#ref4" id="deref4">4</a>]
 
 <h4>Dental dams and other forms of barrier protection</h4>
 
@@ -127,21 +128,27 @@ pregnancy between you and your partner or partners. [<a href="#ref3">3</a>]
         <a href="http://adjectivespecies.com/2012/03/19/re-evaluating-your-sexual-preference/">
         Re-Evaluating Your Sexual Preference</a> - JM,
         <a href="http://adjectivespecies.com">[adjective][species]</a> (19 March
-        2012)
+        2012) <a href="#deref1">&uarr;</a>
     </li>
     <li id="ref2">
         <a href="http://savp.vassar.edu/facts/consent.html">
         What Is Consent?</a> - Sexual Assault Violence Prevention - Vassar
-        College (Retrieved 6 July 2013)
+        College (Retrieved 6 July 2013) <a href="#deref2">&uarr;</a>
     </li>
     <li id="ref3">
         <a href="http://www.cdc.gov/condomeffectiveness/latex.htm">
             Male Latex Condoms and Sexually Transmitted Diseases</a> - The
-        Centers for Disease Control and Prevention (Retrieved 6 July 2013)
+        Centers for Disease Control and Prevention (Retrieved 6 July 2013) <a href="#deref3">&uarr;</a>
     </li>
     <li id="ref4">
         <a href="http://www.cdc.gov/reproductivehealth/UnintendedPregnancy/Contraception.htm">
             Contraception</a> - The Centers for Disease Control And Prevention
-        (Retrieved 6 July 2013)
+        (Retrieved 6 July 2013) <a href="#deref4">&uarr;</a>
     </li>
 </ol>
+
+<hr />
+{% for post in site.categories.safe-sex limit:1 %}
+<h3>Current Version: {{ post.title }} ({{ post.date|date_to_string }})</h3>
+<div class="version-content">{{ post.content }}</div>
+{% endfor %}

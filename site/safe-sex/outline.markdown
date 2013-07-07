@@ -35,10 +35,6 @@ works well in both print and online.
 * * Penetrative sex
 * * Oral sex
 * * Manual and other types of sexual interaction
-* * Not using protection
-* * * Reasons cited for not using protection
-* * * What is safe to do without protection
-* * * Reiterate mutual consent
 * Glossary
 * * Consent
 * * Contraception

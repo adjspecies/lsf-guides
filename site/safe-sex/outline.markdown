@@ -31,10 +31,12 @@ works well in both print and online.
 * * Why
 * * * STDs/STIs (Suggested: hygiene != healthy)
 * * * Contraception
-* * * Contraception is not necessarily protection
-* * Penetrative sex
-* * Oral sex
-* * Manual and other types of sexual interaction
+* * * Trust
+* * Male condoms
+* * * Sex
+* * * Toys
+* * Other barrier protection
+* * Alternatives to penetrative sex
 * Glossary
 * * Consent
 * * Contraception

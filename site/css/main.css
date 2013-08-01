@@ -40,6 +40,17 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.split-2 {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.split-2 div {
+    padding: 1em;
+}
+
 a {
     color: #e65f5f;
 }
@@ -50,8 +61,25 @@ a:active {
     color: #c43d3d;
 }
 
+dt {
+    font-weight: bold;
+}
 
-.titlefont {
+.titlefont, .glossary dt {
     font-family: 'Quantico', sans-serif;
 }
 
+.posts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.posts li {
+    margin: 0;
+    padding: 1em;
+}
+
+.odd {
+    background-color: #eee;
+}

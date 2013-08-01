@@ -1,13 +1,35 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: The LSF Guides
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <p>Welcome to the LSF Guides!  Here you'll find plenty of information of 
+    love and sex in the furry fandom boiled down to simple guides.  These are 
+    all free, and all open-source, so you can contribute on your own as long 
+    as you have a GitHub account!</p>
+    <h2>Available Guides</h2>
+    <div class="split-2">
+        <div>
+            <h3><a href="safe-sex">Safer Sex</a></h3>
+        </div>
+    </div>
+    <div class="split-2 odd">
+        <div>
+            <h3>Relationships - <em>Coming Soon!</em></h3>
+        </div>
+    </div>
+    <h2>Recent activity</h2>
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li class="{% cycle 'odd', 'even' %}">
+        <h3>
+            <span>{{ post.date | date_to_string }}</span> 
+            &raquo; <a href="{{ post.categories | first }}">{{ post.categories | first }}</a> 
+            &raquo; {{ post.title }}
+        </h3> 
+        {{ post.content }}
+        </li>
+        {% endfor %}
+    </ul>
 </div>

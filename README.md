@@ -14,24 +14,28 @@ If you have an idea to contribute, please feel free to fork and submit a pull
 request!  However, we have a few requests before you do so.
 
 * **Number One Most Important** - Please maintain parity between online and
-  print versions of guides.  If you would like to submit an idea only for
-  someone else to write up for you, please only modify the outline.markdown file
-  in the online directory.  This means that, if you want to contribute directly
-  to the guides, you will need to be familiar enough with HTML and Inkscape SVGs
-  to contribute your idea to both!  They should be fairly straight-forward.
+  print versions of guides if they exist!\*  If you would like to submit an idea 
+  only for someone else to write up for you, please only modify the 
+  outline.markdown file in the online directory.  This means that, if you want 
+  to contribute directly to the guides, you will need to be familiar enough with 
+  HTML and Inkscape SVGs to contribute your idea to both!  They should be fairly 
+  straight-forward.
 * **Number One Point Five Most Important** - Always edit the outline first, even
   if you submit a pull request with changes to print/online versions.  Parity
   applies to the outline as well! Separate bullet point because it's important.
 * Please try to maintain maximum column width of 80 characters and indentation
-  to the first line (that is, if you have nested lists, indent paragraphs to the
-  first character of the first line of the paragraph).  This is just about the
-  entirety of the style-guide for text-based stuff.  Just keep it clean :o)
+  of 4 spaces within HTML.\*\*  Just keep it clean :o)
 * In order to maintain consistency in the printed version, your pull request may
   be rejected with an explanation in a comment rather than an annotation on
   code.  That's the problem with a graphical editor!
 * Write up a short description of your changes in the form of a blog-post for
   every pull request, if you can (we will if not), so that the change-log can be
   updated with what you've accomplished!
+
+\* Initial branches won't have this be the case, of course.
+
+\*\* Sensible defaults are included for Vim in the file as such: `textwidth=80
+expandtab tabstop=4 shiftwidth=4 fo=tc spell`.
 
 ## License
 

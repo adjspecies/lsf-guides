@@ -1,46 +1,49 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
+        <title>{{ page.title }} | Love &#x25E6; Sex &#x25E6; Fur</title>
+        <link href="http://fonts.googleapis.com/css?family=Quantico:400" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="http://assets.adjectivespecies.com/bootstrap-topbar.css" />
+        <link rel="icon" type="image/png" href="http://assets.adjectivespecies.com/lsf-ico.png" />
     </head>
     <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+        <div class="topbar">
+            <div class="topbar-inner">
+                <div class="container-fluid">
+                    <a class="brand" href="http://adjectivespecies.com">Love &#x25E6; Sex &#x25E6; Fur</a>
+                    <ul class="nav">
+                        <li class="active"><a href="http://guides.lovesexfur.com">Guides</a></li>
+                        <li><a href="http://adjectivespecies.com">[adjective][species]</a></li>
+                        <li><a href="http://twitter.com/lovesexfur">Twitter</a></li>
+                        <li><a href="htp://furaffinity.net/user/lovesexfur">FurAffinity</a></li>
+                    </ul>
+                </div>
             </div>
-     
+        </div>
+        <header>
+            <a href="http://lovesexfur.com"><img src="http://assets.adjectivespecies.com/lsf-header-fit.jpg" /></a>
+        </header>
+        <a href="https://github.com/adjspecies/lsf-guides"><img style="position: absolute; top: 328; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+        <article>
+            <h1>{{ page.title }}</h1>
+            <section>
                 {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
-    </body>
-</html>
+            </section>
+        </article>
+        <footer>
+            Content <a href="http://lib.jnsq.us/license/cc-by-nc-sa" target="_blank"><img src="http://lib.jnsq.us/licenses/small/by-nc-sa_inline.png" alt="CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)" /> [adjective][species], Ltd., 2011 - 2013</a> under the CC BY-NC-SA (Attribution-NonCommercial-ShareAlike) license<br />
+        </footer>
+        <!-- Piwik --> 
+        <script type="text/javascript">
+            var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.jnsq.us/" : "http://piwik.jnsq.us/");
+            document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+            </script><script type="text/javascript">
+            try {
+                var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 13);
+                piwikTracker.trackPageView();
+                piwikTracker.enableLinkTracking();
+            } catch( err ) {}
+        </script><noscript><p><img src="http://piwik.jnsq.us/piwik.php?idsite=13" style="border:0" alt="" /></p></noscript>
+        <!-- End Piwik Tracking Tag -->
+    </body> 
+</html> 

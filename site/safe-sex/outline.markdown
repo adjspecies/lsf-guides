@@ -17,31 +17,33 @@ works well in both print and online.
 
 ### Outline
 * Sex positivity
-* * What is sex positivity
-* * * Not hypersexuality
-* * * Sex and discussing sex should always be a positive and constructive
+  * What is sex positivity
+    * Not hypersexuality
+    * Sex and discussing sex should always be a positive and constructive
       experience
-* * * The importance of talking with partners
-* * Why a sex positive guide
+    * The importance of talking with partners
+  * Why a sex positive guide
 * Consent
-* * What it is
-* * What it isn't
-* * Negotiation
+  * What it is
+  * What it isn't
+  * Negotiation
 * Protection
-* * Why
-* * * STDs/STIs (Suggested: hygiene != healthy)
-* * * Contraception
-* * * Trust
-* * Male condoms
-* * * Sex
-* * * Toys
-* * Other barrier protection
-* * Alternatives to penetrative sex
+  * Why
+    * STDs/STIs (Suggested: hygiene != healthy)
+    * Contraception
+    * Trust
+  * Male condoms
+    * Sex
+    * Toys
+  * Other barrier protection
+  * Alternatives to penetrative sex
 * Glossary
-* * Consent
-* * Contraception
-* * Dental Dam
-* * Safe-word
-* * Sex
-* * Sex-positivity
-* * STD/STI
+  * Consent
+  * Contraception
+  * Dental Dam
+  * Latex
+  * Lubricant
+  * Safe-word
+  * Sex
+  * Sex-positivity
+  * STD/STI

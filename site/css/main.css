@@ -83,3 +83,19 @@ dt {
 .odd {
     background-color: #eee;
 }
+
+table {
+    margin: 1em;
+}
+
+th, td {
+    padding: 0.5em;
+}
+
+thead th {
+    text-align: center;
+}
+
+tbody th {
+    text-align: right;
+}

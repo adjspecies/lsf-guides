@@ -18,8 +18,8 @@ both print and online.
 ### Outline
 * Gender and sex
   * Identity
-  * Expression
   * Biosex
+  * Expression
 * Trans\*
   * Dysphoria
   * Witnessing and mirroring
@@ -28,13 +28,13 @@ both print and online.
   * Non-binary
     * The search for what fits best
     * Identity versus labels
-* The intersection with sexuality
-  * Sexuality and dysphoria
-  * Expression and sex
 * The intersection with furry
   * Identity already at the forefront
   * Open and accepting
-  * Sexual outlet in line with identity
+* The intersection with sexuality
+  * Sexuality and dysphoria
+  * furry as exual outlet in line with identity
+  * Expression and sex
 * Social interaction
   * Pronouns
   * Identity
@@ -44,6 +44,9 @@ both print and online.
   * Agender
   * Cisgender
   * Gender
+  * Genderfuild
+  * Genderqueer
+  * Intersex
   * Non-binary
   * Sex
   * Transgender

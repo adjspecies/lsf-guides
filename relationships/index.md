@@ -18,7 +18,7 @@ there to be referenced.
 However, according to the 2013 Furry Survey \[<span
 id="deref1">[1](#ref1)</span>\], the majority of furries are single:
 
-| <!----> | <!----> |
+| | |
 |---|---|
 | Single | *55.6%* |
 | Long-term relationship |*21.8%* |

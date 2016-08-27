@@ -34,6 +34,7 @@ within the fandom, rather than outside the furry subculture.
 **Polyamory and open relationships** also figure large within the furry
 fandom:
 
+| | |
 |---|---|
 | Sexually open | *19.7%* |
 | Sexually closed | *80.3%* |
